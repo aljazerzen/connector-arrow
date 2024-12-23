@@ -21,7 +21,7 @@ chrono = "0.4"
 serde_json = "1"
 
 # make sure this is in-sync with duckdb
-arrow = { version = "53", default-features = false }
+arrow = { version = "54", default-features = false }
 
 # common optional
 hex = { version = "0.4", optional = true }
@@ -75,7 +75,7 @@ optional = true
 
 [dev-dependencies]
 env_logger = "0.11"
-arrow = { version = "53", features = ["prettyprint"], default-features = false }
+arrow = { version = "54", features = ["prettyprint"], default-features = false }
 similar-asserts = { version = "1.5.0" }
 half = "2.3.1"
 rand = { version = "0.8.5", default-features = false }
